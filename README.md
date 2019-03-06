@@ -10,9 +10,11 @@ This repo implement some simple encryption/decryption algorithms, like RSA, ElGa
     Compute phi = (p-1)(q-1)
     Generate a public key e by: gcd(e, phi), set (n, e) as public key
     Generate a private key d by: e.d ≡ 1 mod (n), set (n, d) as private key
+
     (2) Encryption
     c = ciphertext
     m = plaintext
     c = m^e mod n
+    
     (3) Decryption
     m = c^d mod n
