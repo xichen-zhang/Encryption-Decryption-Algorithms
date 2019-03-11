@@ -30,6 +30,7 @@ This repo implement some simple encryption/decryption algorithms, like RSA, ElGa
     m = c^d mod n
 
 2. ElGamal Encryption/Decryption
+
     (1) Key generation:
 
     Given a large prime p = 65537, a primary root g = 3
